@@ -76,6 +76,19 @@ h1#name {
   margin: 50px;
 }
 
+#myDIV {
+  margin: auto;
+  width: fit-content;
+  height: 100px;
+  color: yellow;
+  font-size: 25px;
+  animation: mymove 10s infinite linear;
+}
+
+@keyframes mymove {
+  50% {transform: rotateY(360deg);}
+}
+
 #generalInfo {
   display: flex;
   flex-wrap: wrap;
