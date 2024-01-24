@@ -16,8 +16,9 @@ p {
   --light1: white;
   --dark2: darkblue;
   --light2: lightblue;
-  background-color: var(--light1);
-  color: var(--dark1);
+  /* background-color: var(--light1); */
+  background-image: url("https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  color: var(--light1);
 }
 
 button {
@@ -67,7 +68,7 @@ label {
   color: var(--dark2);
   background-color: var(--light2);
   font-weight: bold;
-  box-shadow: 5px 5px 2px rgba(61, 12, 209, 0.3);
+  box-shadow: 5px 5px 2px rgba(255, 255, 255, 0.5);
 }
 
 /* Character page */
@@ -86,9 +87,10 @@ h1#name {
   padding: 20px;
   margin: 10px;
   color: var(--dark2);
-  background-color: var(--light1);
-  border: 1px solid var(--dark2);
+  background-color: var(--light2);
+  border: 1px solid var(--dark1);
   border-bottom-width: 5px;
+  border-radius: 25%;
 }
 
 #generalInfo span {
@@ -123,5 +125,5 @@ section#films a {
   margin: 10px;
   border-radius: 5px;
   border: 1px solid var(--dark2);
-  box-shadow: 5px 5px 2px rgba(61, 12, 209, 0.3);
+  box-shadow: 5px 5px 2px rgba(255, 255, 255, 0.5);
 }
